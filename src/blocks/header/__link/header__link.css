@@ -11,11 +11,3 @@
 .header__link:hover {
   opacity: 0.6;
 }
-
-@media screen and (max-width: 650px) {
-  .header__link {
-    margin: 6px auto 40px;
-    font-size: 14px;
-    line-height: 1.214;
-  }
-}

@@ -6,9 +6,3 @@
   text-align: center;
   color: #FFFFFF;
 }
-
-@media screen and (max-width: 650px) {
-  .login__text {
-    width: 260px;
-  }
-}
