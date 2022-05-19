@@ -49,8 +49,8 @@ function Main(props) {
             onCardLike={props.onCardLike}
             onCardDelete={props.onCardDelete}
           />
-        )})
-      }
+        )
+      })}
     </section>
     </main>
   )

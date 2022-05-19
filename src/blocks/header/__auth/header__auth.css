@@ -1,0 +1,13 @@
+.header__auth {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 auto auto;
+}
+
+@media screen and (max-width: 650px) {
+  .header__auth {
+    flex-direction: column;
+    margin: 0;
+    order: 1;
+  }
+}

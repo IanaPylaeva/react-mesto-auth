@@ -6,6 +6,10 @@
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
 
+@import url(./blocks/header/__auth/header__auth.css);
+@import url(./blocks//header/__text/header__text.css);
+@import url(./blocks//header/__link/header__link.css);
+
 /*блок profile*/
 @import url(./blocks/profile/profile.css);
 @import url(./blocks/profile/__add-button/profile__add-button.css);
@@ -53,8 +57,22 @@
 @import url(./blocks/popup/_type/popup_type_profile.css);
 @import url(./blocks/popup/_type/popup_type_picture.css);
 @import url(./blocks/popup/_type/popup_type_update-avatar.css);
-@import url(./blocks/popup/_type/popup_type_deleteask.css);
 @import url(./blocks/popup/__text/_type/popup__text_type_error.css);
 @import url(./blocks/popup/__text-error/popup__text-error.css);
 @import url(./blocks/popup/__button-submit/_disabled/popup__button-submit_disabled.css);
-@import url(./blocks/popup/__title-deleteask/popup__title-deleteask.css);
+
+@import url(./blocks/popup/__info/popup__info.css);
+@import url(./blocks/popup/__status/popup__status.css);
+@import url(./blocks/popup/__message/popup__message.css);
+
+
+@import url(./blocks/popup/_type/popup_type_auth.css);
+
+/*блок login*/
+@import url(./blocks/login/__button/login__button.css);
+@import url(./blocks/login/__form/login__form.css);
+@import url(./blocks/login/__input/login__input.css);
+@import url(./blocks/login/__text/login__text.css);
+@import url(./blocks/login/__title/login__title.css);
+@import url(./blocks/login/__link/login__link.css);
+@import url(./blocks/login/login.css);

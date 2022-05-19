@@ -24,6 +24,12 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .header__logo {
+    order: 2;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .header__logo {
     width: 103.74px;
