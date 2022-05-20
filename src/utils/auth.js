@@ -29,7 +29,7 @@ export function loginUser(email, password) {
   }).then(checkResponse);
 }
 
-export function getToken(jwt) {
+export function getContent(jwt) {
   return fetch(`${BASE_URL}/users/me`, {
     method: 'GET',
     headers: {

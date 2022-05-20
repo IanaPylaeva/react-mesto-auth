@@ -3,9 +3,9 @@
   font-size: 18px;
   line-height: 1.222;
   color: #A9A9A9;
+  text-decoration: none;
   transition: opacity .3s ease;
   cursor: pointer;
-  text-decoration: none;
   margin: 6px auto auto 24px;
 }
 .header__link:hover {
